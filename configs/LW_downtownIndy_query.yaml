@@ -1,4 +1,4 @@
-###############################################################################
+enced_images###############################################################################
 # Example Metadata Processor Config
 ###############################################################################
 
@@ -16,7 +16,7 @@ io_manager:
     metadata: existing_output/sequential-mosaic/220513-FH135_2024-04-21_00-05-33/y_pred.csv
     referenced_images:
       # Relative to input_dir
-      directory: existing_output/sequential-mosaic/220513-FH135_2024-04-21_00-05-33/referenced_images
+      directory: referenced_images/220513-FH135/
 
   # Where the output files will be saved
   output_dir: /data/output
